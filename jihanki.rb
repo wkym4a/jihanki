@@ -1,5 +1,5 @@
 
-# require '/Users/wakayamayuki/workspace/JIHANKI/test.rb'
+# require '/Users/wakayamayuki/workspace/JIHANKI/jihanki.rb'
 # vm = VendingMachine.new
 require "pry"
 
@@ -60,7 +60,7 @@ class VendingMachine
       @slot_money += money
       return true
     else
-      puts "この自販機が対応しているのは10円玉、50円玉、100円玉、500円玉、1000円札、5000円札のみです。"
+      puts "この自販機が対応しているのは10円玉、50円玉、100円玉、500円玉、1000円札のみです。"
       puts "それ以外の金額は入力しないでください。"
 
     end
